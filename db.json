@@ -1,0 +1,45 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Example Article",
+      "content": "This is an example."
+    },
+    {
+      "id": 2,
+      "title": "Second Article",
+      "content": "This is also an example."
+    },
+    {
+      "id": 3,
+      "title": "Third Article",
+      "content": "Another example!"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "articleId": 1,
+      "userId": 2,
+      "text": "Great article!"
+    },
+    {
+      "id": 2,
+      "articleId": 1,
+      "userId": 1,
+      "text": "Very helpful, thanks!"
+    }
+  ]
+}
